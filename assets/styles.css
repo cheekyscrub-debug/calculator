@@ -573,3 +573,23 @@ fieldset.form-row {
     display: none;
   }
 }
+
+.section.alt {
+  background: linear-gradient(180deg, #f7fbff 0%, #ffffff 100%);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.section + .section.alt {
+  margin-top: 0;
+}
+
+.section.alt .section-heading h2::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 4px;
+  margin-top: 0.6rem;
+  background: linear-gradient(90deg, var(--brand-green), var(--brand-blue));
+  border-radius: 999px;
+}
