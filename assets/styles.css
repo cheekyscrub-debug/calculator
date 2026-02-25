@@ -93,7 +93,7 @@ a {
 }
 
 .logo img {
-  height: 48px;
+  height: 52px;
   width: auto;
 }
 
@@ -921,7 +921,7 @@ fieldset.form-row {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  min-height: 48px;
+  min-height: 52px;
   border-radius: 999px;
   font-weight: 700;
   color: #fff;

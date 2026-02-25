@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" role="img" aria-label="Nasa Gas Plumbing & Heating">
+  <defs>
+    <linearGradient id="brand" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1e63d8" />
+      <stop offset="100%" stop-color="#14a36a" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="520" height="140" fill="none" />
+  <g transform="translate(18 18)">
+    <rect x="0" y="0" width="104" height="104" rx="22" fill="url(#brand)" />
+    <g transform="translate(22 20)" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="10" y="8" width="40" height="60" rx="8" />
+      <rect x="18" y="16" width="24" height="16" rx="4" />
+      <circle cx="23" cy="52" r="3" />
+      <circle cx="33" cy="52" r="3" />
+      <circle cx="43" cy="52" r="3" />
+      <path d="M66 68c-6-2-10-6-10-12 0-7 6-12 13-16" />
+    </g>
+  </g>
+  <g transform="translate(150 28)" font-family="'Segoe UI', 'Source Sans 3', sans-serif" fill="#102030">
+    <text x="0" y="46" font-size="40" font-weight="700">Nasa Gas</text>
+    <text x="0" y="86" font-size="22" font-weight="600" fill="#1e63d8">Plumbing &amp; Heating</text>
+  </g>
+</svg>
