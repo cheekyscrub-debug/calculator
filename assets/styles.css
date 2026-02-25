@@ -92,6 +92,12 @@ a {
   font-size: 1.1rem;
 }
 
+.logo img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
 .main-nav {
   display: flex;
   gap: 1rem;
@@ -218,7 +224,8 @@ a {
 
 .services-grid,
 .faq-grid,
-.testimonials-grid {
+.testimonials-grid,
+.why-grid {
   display: grid;
   gap: 1.2rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -230,6 +237,18 @@ a {
   border-radius: 16px;
   padding: 1.4rem;
   background: #fff;
+}
+
+.brand-support {
+  margin-top: 2rem;
+  padding: 1.6rem;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #f7fbff;
+}
+
+.why-choose {
+  background: linear-gradient(180deg, #ffffff 0%, #f5fbff 100%);
 }
 
 .emergency-banner {
