@@ -82,6 +82,7 @@ function stopAutoRotate() {
 function openModal() {
   if (!galleryImages.length) return;
   modal.classList.add("open");
+  document.body.classList.add("hide-action-bar");
   modal.setAttribute("aria-hidden", "false");
   modalImage.src = galleryImage.src;
   lastFocused = document.activeElement;
@@ -90,6 +91,7 @@ function openModal() {
 
 function closeModal() {
   modal.classList.remove("open");
+  document.body.classList.remove("hide-action-bar");
   modal.setAttribute("aria-hidden", "true");
   if (lastFocused) {
     lastFocused.focus();
