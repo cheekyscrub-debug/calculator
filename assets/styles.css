@@ -825,3 +825,77 @@ fieldset.form-row {
     display: none;
   }
 }
+
+
+.service-card {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.8rem 1.6rem;
+  background: #fff;
+  box-shadow: 0 16px 32px rgba(16, 32, 48, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(16, 32, 48, 0.14);
+}
+
+.icon-badge {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.icon-badge svg {
+  width: 34px;
+  height: 34px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.badge-blue {
+  color: var(--brand-blue);
+  background: rgba(30, 99, 216, 0.12);
+}
+
+.badge-green {
+  color: var(--brand-green);
+  background: rgba(20, 163, 106, 0.12);
+}
+
+.service-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--brand-blue);
+  font-weight: 700;
+  margin-top: 0.8rem;
+}
+
+.service-card:hover .icon-badge {
+  filter: saturate(1.1);
+}
+
+
+.inline-icon {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  margin-right: 0.4rem;
+}
+
+.btn .inline-icon {
+  margin-right: 0.5rem;
+}
