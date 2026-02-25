@@ -593,3 +593,63 @@ fieldset.form-row {
   background: linear-gradient(90deg, var(--brand-green), var(--brand-blue));
   border-radius: 999px;
 }
+
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.pill-row span {
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  background: #eef6ff;
+  color: var(--brand-blue);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.split {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: center;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 2rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.about-card ul {
+  padding-left: 1rem;
+  margin: 1rem 0 0;
+}
+
+.about-list {
+  display: grid;
+  gap: 0.6rem;
+  margin: 1.5rem 0;
+  color: var(--muted);
+}
+
+.pricing-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 2rem;
+}
+
+.pricing-grid ul {
+  padding-left: 1.1rem;
+  margin: 0.8rem 0 1.5rem;
+}
+
+.pricing-note {
+  margin-top: 1rem;
+}
