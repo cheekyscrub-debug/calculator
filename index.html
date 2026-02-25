@@ -47,14 +47,8 @@
           "postalCode": "B17 8LG"
         },
         "areaServed": [
-          {
-            "@type": "City",
-            "name": "Birmingham"
-          },
-          {
-            "@type": "AdministrativeArea",
-            "name": "West Midlands"
-          }
+          { "@type": "City", "name": "Birmingham" },
+          { "@type": "AdministrativeArea", "name": "West Midlands" }
         ],
         "openingHoursSpecification": [
           {
@@ -78,10 +72,7 @@
         "description": "Emergency boiler repair and water leaks Birmingham 24/7. Gas Safe registered, insured plumbing and heating with same-day service available.",
         "serviceArea": {
           "@type": "GeoCircle",
-          "geoMidpoint": {
-            "@type": "GeoCoordinates",
-            "address": "Birmingham, England"
-          },
+          "geoMidpoint": { "@type": "GeoCoordinates", "address": "Birmingham, England" },
           "geoRadius": "10 mi"
         }
       }
@@ -91,99 +82,106 @@
   <body>
     <a class="skip-link" href="#main">Skip to main content</a>
 
+    <div class="emergency-bar">
+      <div class="container emergency-bar-inner">
+        <span class="live-pill"><span class="live-dot"></span>LIVE 24/7</span>
+        <span>Emergency boiler repair and water leaks — Birmingham</span>
+        <a class="btn btn-secondary" href="tel:07790714880">Call 24/7</a>
+      </div>
+    </div>
+
     <header class="site-header" id="top">
       <div class="container header-inner">
         <a class="logo" href="#top">
           <img src="assets/images/Logo.svg" alt="Nasa Gas Plumbing &amp; Heating" />
         </a>
         <nav class="main-nav">
+          <a href="#triage">Triage</a>
           <a href="#services">Services</a>
-          <a href="#about">About</a>
-          <a href="#why-us">Why Us</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#gallery">Gallery</a>
+          <a href="#areas">Areas</a>
           <a href="#reviews">Reviews</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a class="btn btn-primary" href="tel:07790714880">
-              <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 4l4 2-2 3c1.2 2.4 3.1 4.3 5.5 5.5l3-2 2 4-2.5 1.5c-.8.4-1.8.3-2.5-.2-3.8-2.6-6.8-5.6-9.4-9.4-.5-.7-.6-1.7-.2-2.5L5 4z" />
-              </svg>Call 24/7</a>
+        <a class="btn btn-primary" href="tel:07790714880">Call Now</a>
       </div>
     </header>
 
     <main id="main">
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Emergency boiler repair and water leaks Birmingham 24/7</p>
-            <h1>Emergency Boiler Repair &amp; Water Leaks in Birmingham — 24/7</h1>
-            <p class="hero-subtext">
-              Fast, dependable support for homes and businesses. Gas Safe Registered #637117, same-day availability,
-              and fully insured for up to £5,000,000 public liability.
-            </p>
-            <div class="pill-row">
-              <span>Gas Safe Registered</span>
-              <span>24/7 Availability</span>
-              <span>Same-Day Service Available</span>
-            </div>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="tel:07790714880">
-            <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M5 4l4 2-2 3c1.2 2.4 3.1 4.3 5.5 5.5l3-2 2 4-2.5 1.5c-.8.4-1.8.3-2.5-.2-3.8-2.6-6.8-5.6-9.4-9.4-.5-.7-.6-1.7-.2-2.5L5 4z" />
-            </svg>Call 24/7</a>
-              <a class="btn btn-secondary" href="#contact">Request a Call Back</a>
-            </div>
-            <div class="hero-meta">
-              <div>
-                <strong>Gas Safe Registered #637117</strong>
-                <span>Certified for safe gas work</span>
-              </div>
-              <div>
-                <strong>Up to £5,000,000 Insurance</strong>
-                <span>Public liability cover</span>
-              </div>
-              <div>
-                <strong>Workmanship Guaranteed</strong>
-                <span>Terms apply</span>
-              </div>
-            </div>
+      <section class="hero section hero-lite">
+        <div class="container hero-stack">
+          <h1>Emergency Boiler Repair &amp; Water Leaks in Birmingham — 24/7</h1>
+          <p class="hero-subline">Gas Safe Registered #637117 · Same-day service available · Up to £5,000,000 insured</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="tel:07790714880">
+              <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 4l4 2-2 3c1.2 2.4 3.1 4.3 5.5 5.5l3-2 2 4-2.5 1.5c-.8.4-1.8.3-2.5-.2-3.8-2.6-6.8-5.6-9.4-9.4-.5-.7-.6-1.7-.2-2.5L5 4z" />
+              </svg>
+              Call Now
+            </a>
+            <a
+              class="btn btn-whatsapp"
+              href="https://wa.me/447790714880?text=Hi%20Nasa%20Gas%20Plumbing%20%26%20Heating%20Services%2C%20I%20need%20an%20emergency%20boiler%20repair%20or%20help%20with%20a%20water%20leak%20in%20Birmingham.%20Please%20contact%20me%20as%20soon%20as%20possible."
+              target="_blank"
+              rel="noopener"
+            >
+              <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 5h16a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H9l-5 4v-4H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" />
+              </svg>
+              WhatsApp
+            </a>
           </div>
-          <div class="hero-panel">
-            <div class="hero-panel-card">
-              <h2>Need help now?</h2>
-              <p>We cover Birmingham and nearby areas within roughly 10 miles.</p>
-              <ul>
-                <li>Emergency boiler repairs</li>
-                <li>Plumbing leaks &amp; burst pipes</li>
-                <li>Central heating repairs</li>
-              </ul>
-              <a class="btn btn-primary" href="tel:07790714880">Call 24/7</a>
-            </div>
-            <div class="hero-panel-card light">
-              <h3>Emergency Support</h3>
-              <p>Response times depend on availability and location.</p>
-              <p class="muted">24/7 Emergency Call-Outs · Same-Day Service Available</p>
-            </div>
+          <div class="trust-chips">
+            <span>Gas Safe Registered</span>
+            <span>24/7 Emergency Call-Outs</span>
+            <span>Workmanship guaranteed (terms apply)</span>
           </div>
         </div>
+        <svg class="angle-divider" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="0,90 1440,0 1440,90" />
+        </svg>
       </section>
 
-      <section class="trust-strip">
-        <div class="container trust-grid">
-          <div class="trust-item"><span class="icon icon-shield"></span>Gas Safe Registered #637117</div>
-          <div class="trust-item"><span class="icon icon-cover"></span>Up to £5,000,000 Public Liability Insurance</div>
-          <div class="trust-item"><span class="icon icon-clock"></span>24/7 Emergency Call-Outs</div>
-          <div class="trust-item"><span class="icon icon-bolt"></span>Same-Day Service Available</div>
-          <div class="trust-item"><span class="icon icon-check"></span>Workmanship guaranteed (terms apply)</div>
-        </div>
-      </section>
-
-      <section class="section" id="services">
+      <section class="section surface" id="triage">
         <div class="container">
           <div class="section-heading">
-            <h2>Plumbing &amp; Heating Services</h2>
-            <p>Focused, reliable support across Birmingham — day or night.</p>
+            <h2>Tell us the emergency</h2>
+            <p>Pick the closest issue and we will get you help fast.</p>
+          </div>
+          <div class="triage-grid">
+            <div class="triage-card">Boiler not heating</div>
+            <div class="triage-card">Water leak / burst pipe</div>
+            <div class="triage-card">No hot water</div>
+            <div class="triage-more" hidden>
+              <div class="triage-card">Heating breakdown</div>
+              <div class="triage-card">Low pressure</div>
+              <div class="triage-card">Radiator leak</div>
+            </div>
+          </div>
+          <button class="link-toggle" data-toggle="triage">More issues</button>
+        </div>
+        <svg class="angle-divider reverse" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="0,0 1440,90 0,90" />
+        </svg>
+      </section>
+
+      <section class="section block-blue" id="emergency-dispatch">
+        <div class="container dispatch">
+          <div>
+            <span class="live-pill inverse"><span class="live-dot"></span>LIVE 24/7</span>
+            <h2>Emergency boiler repair or water leak in Birmingham? Call 24/7</h2>
+          </div>
+          <a class="btn btn-white" href="tel:07790714880">Call 24/7</a>
+        </div>
+        <svg class="angle-divider" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="0,90 1440,0 1440,90" />
+        </svg>
+      </section>
+
+      <section class="section surface-2" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Emergency services</h2>
+            <p>Fast response for homes and businesses across Birmingham.</p>
           </div>
           <div class="services-grid">
             <div class="service-card">
@@ -232,188 +230,80 @@
               <p>24/7 availability for urgent plumbing issues.</p>
               <a href="#contact" class="service-link">Get help now →</a>
             </div>
-            <div class="service-card">
-              <div class="icon-badge badge-blue">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <circle cx="12" cy="12" r="8" />
-                  <path d="M12 8v5l3 2" />
-                </svg>
+          </div>
+          <div class="services-more" hidden>
+            <div class="services-grid secondary">
+              <div class="service-card">
+                <div class="icon-badge badge-blue">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="8" />
+                    <path d="M12 8v5l3 2" />
+                  </svg>
+                </div>
+                <h3>24/7 Emergency Call-Outs</h3>
+                <p>Always available for urgent boiler and plumbing emergencies.</p>
+                <a href="#contact" class="service-link">Get help now →</a>
               </div>
-              <h3>24/7 Emergency Call-Outs</h3>
-              <p>Always available for urgent boiler and plumbing emergencies.</p>
-              <a href="#contact" class="service-link">Get help now →</a>
-            </div>
-            <div class="service-card">
-              <div class="icon-badge badge-green">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" />
-                  <path d="M9.5 12.5l2 2 3.5-4" />
-                </svg>
+              <div class="service-card">
+                <div class="icon-badge badge-green">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" />
+                    <path d="M9.5 12.5l2 2 3.5-4" />
+                  </svg>
+                </div>
+                <h3>Gas Safe &amp; Insured</h3>
+                <p>Gas Safe Registered #637117 with up to £5,000,000 insurance.</p>
+                <a href="#contact" class="service-link">Get help now →</a>
               </div>
-              <h3>Gas Safe &amp; Insured</h3>
-              <p>Gas Safe Registered #637117 with up to £5,000,000 insurance.</p>
-              <a href="#contact" class="service-link">Get help now →</a>
-            </div>
-            <div class="service-card">
-              <div class="icon-badge badge-blue">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M12 22s6-5.4 6-10a6 6 0 1 0-12 0c0 4.6 6 10 6 10z" />
-                  <circle cx="12" cy="12" r="2.5" />
-                </svg>
+              <div class="service-card">
+                <div class="icon-badge badge-blue">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 22s6-5.4 6-10a6 6 0 1 0-12 0c0 4.6 6 10 6 10z" />
+                    <circle cx="12" cy="12" r="2.5" />
+                  </svg>
+                </div>
+                <h3>Birmingham Coverage</h3>
+                <p>Local support within roughly a 10-mile radius of Birmingham.</p>
+                <a href="#areas" class="service-link">View areas →</a>
               </div>
-              <h3>Birmingham Coverage</h3>
-              <p>Local support within roughly a 10-mile radius of Birmingham.</p>
-              <a href="#contact" class="service-link">Get help now →</a>
-            </div>
-            <div class="service-card">
-              <div class="icon-badge badge-green">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M12 3l2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4-4.5 2.4.9-5L4.8 8.3l5-.7z" />
-                </svg>
+              <div class="service-card">
+                <div class="icon-badge badge-green">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3l2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4-4.5 2.4.9-5L4.8 8.3l5-.7z" />
+                  </svg>
+                </div>
+                <h3>5-Star Testimonials</h3>
+                <p>Rated highly for professionalism, punctuality, and clean work.</p>
+                <a href="#reviews" class="service-link">Read reviews →</a>
               </div>
-              <h3>5-Star Testimonials</h3>
-              <p>Rated highly for professionalism, punctuality, and clean work.</p>
-              <a href="#reviews" class="service-link">Read reviews →</a>
             </div>
           </div>
-          <div class="brand-support">
-            <h3>Boiler Brands We Work With</h3>
-            <p class="muted">
-              We regularly service and repair leading boiler brands, including Worcester Bosch, Vaillant, Ideal, Baxi,
-              Viessmann, and Alpha.
-            </p>
-          </div>
+          <button class="link-toggle" data-toggle="services">View all services</button>
         </div>
+        <svg class="angle-divider reverse" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="0,0 1440,90 0,90" />
+        </svg>
       </section>
 
-      <section class="section alt" id="about">
-        <div class="container split">
-          <div>
-            <div class="section-heading">
-              <h2>Trusted Gas &amp; Plumbing Engineers in Birmingham</h2>
-              <p>
-                Safe, professional plumbing and heating for Birmingham homes and businesses.
-                From emergency repairs to planned upgrades, we focus on clear communication and quality work.
-              </p>
-            </div>
-            <div class="about-list">
-              <div>Gas Safe Registered #637117</div>
-              <div>Up to £5,000,000 Public Liability Insurance</div>
-              <div>Workmanship guaranteed (terms apply)</div>
-              <div>Transparent pricing explained before work begins</div>
-            </div>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="tel:07790714880">Call 24/7</a>
-              <a class="btn btn-secondary" href="#contact">Request a Call Back</a>
-            </div>
-          </div>
-          <div class="about-card">
-            <div class="about-card-inner">
-              <h3>Emergency support, day or night</h3>
-              <p>
-                We respond to boiler breakdowns, heating failures, and plumbing leaks across Birmingham and nearby areas.
-              </p>
-              <ul>
-                <li>Emergency boiler repairs</li>
-                <li>Central heating repairs</li>
-                <li>Plumbing leaks &amp; burst pipes</li>
-              </ul>
-            </div>
-          </div>
+      <section class="section block-green" id="fast-action">
+        <div class="container fast-action">
+          <h2>Fast action, clear steps</h2>
+          <ul class="steps">
+            <li><strong>Call</strong> and tell us the emergency.</li>
+            <li><strong>Describe the issue</strong> so we can prepare the right support.</li>
+            <li><strong>We arrange support</strong> based on availability and location.</li>
+          </ul>
         </div>
+        <svg class="angle-divider" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="0,90 1440,0 1440,90" />
+        </svg>
       </section>
 
-      <section class="section" id="why-us">
+      <section class="section surface" id="areas">
         <div class="container">
           <div class="section-heading">
-            <h2>Why Choose Nasa Gas</h2>
-            <p>Trusted local engineers focused on safe, reliable workmanship and clear communication.</p>
-          </div>
-          <div class="why-grid">
-            <div class="card">
-              <h3><span class="icon icon-shield"></span>Gas Safe Registered</h3>
-              <p>Gas Safe Registered #637117 for safe boiler and gas work.</p>
-            </div>
-            <div class="card">
-              <h3><span class="icon icon-clock"></span>24/7 Emergency Support</h3>
-              <p>Emergency call-outs and same-day service available where possible.</p>
-            </div>
-            <div class="card">
-              <h3><span class="icon icon-cover"></span>Fully Insured</h3>
-              <p>Up to £5,000,000 public liability insurance for peace of mind.</p>
-            </div>
-            <div class="card">
-              <h3><span class="icon icon-check"></span>Workmanship Guaranteed</h3>
-              <p>Workmanship guaranteed (terms apply). Ask us about coverage.</p>
-            </div>
-            <div class="card">
-              <h3><span class="icon icon-map"></span>Local Birmingham Engineers</h3>
-              <p>Based locally, covering Birmingham and nearby areas within roughly 10 miles.</p>
-            </div>
-            <div class="card">
-              <h3><span class="icon icon-quote"></span>Clear Pricing</h3>
-              <p>Transparent pricing explained before work begins.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="emergency-banner">
-        <div class="container emergency-inner">
-          <div>
-            <h2>Emergency call-outs, 24/7</h2>
-            <p>Boiler breakdown? Water leak? We are ready to help across Birmingham today.</p>
-            <p class="muted">Response times depend on availability and location.</p>
-          </div>
-          <a class="btn btn-primary" href="tel:07790714880">Call 24/7</a>
-        </div>
-      </section>
-
-      <section class="section alt" id="pricing">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Transparent Pricing</h2>
-            <p>Clear, upfront pricing before any work begins. Call us to confirm availability and a tailored estimate.</p>
-          </div>
-          <div class="pricing-grid">
-            <div class="card pricing-card">
-              <h3>Residential Support</h3>
-              <ul>
-                <li>Boiler breakdowns</li>
-                <li>Heating faults</li>
-                <li>Leaks &amp; burst pipes</li>
-                <li>Radiator repairs</li>
-                <li>Boiler servicing</li>
-              </ul>
-              <a class="btn btn-secondary" href="tel:07790714880">Call to Book</a>
-            </div>
-            <div class="card pricing-card">
-              <span class="pricing-badge">Popular</span>
-              <h3>Commercial Support</h3>
-              <ul>
-                <li>Commercial heating repairs</li>
-                <li>Boiler servicing &amp; maintenance</li>
-                <li>Gas pipework checks</li>
-                <li>Emergency call-outs</li>
-                <li>Planned upgrades</li>
-              </ul>
-              <a class="btn btn-secondary" href="tel:07790714880">Call to Book</a>
-            </div>
-          </div>
-          <p class="muted pricing-note">
-            Estimates are provided before work begins. Pricing depends on the job and materials required.
-          </p>
-        </div>
-      </section>
-
-      <section class="section" id="areas">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Service Area</h2>
-            <p>
-              We cover Birmingham and surrounding areas within roughly a 10-mile radius. If you are nearby,
-              call and we will confirm availability.
-            </p>
+            <h2>Service area</h2>
+            <p>We cover Birmingham and surrounding areas within roughly a 10-mile radius.</p>
           </div>
           <div class="areas-grid">
             <span>Edgbaston</span>
@@ -436,135 +326,60 @@
             <span>Quinton</span>
           </div>
         </div>
+        <svg class="angle-divider reverse" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="0,0 1440,90 0,90" />
+        </svg>
       </section>
 
-      <section class="section alt" id="gallery">
+      <section class="section block-blue" id="reviews">
         <div class="container">
-          <div class="section-heading">
-            <h2>Smart Work Gallery</h2>
-            <p>Recent boiler repairs, heating upgrades, and plumbing fixes across Birmingham.</p>
+          <div class="section-heading light">
+            <h2>Proof: Birmingham customers rate us highly</h2>
+            <p>Clear, professional service — day or night.</p>
           </div>
-          <div class="gallery-wrapper">
-            <div class="gallery-main">
-              <button class="gallery-nav prev" type="button" aria-label="Previous image">&#10094;</button>
-              <div class="gallery-frame" id="galleryFrame" tabindex="0">
-                <img id="galleryImage" alt="Gallery image" />
-                <div class="gallery-placeholder" id="galleryPlaceholder">
-                  <div class="placeholder-art"></div>
-                  <p>Gallery images will appear here.</p>
-                  <p class="muted">TODO: Add real job photos to assets/images/</p>
-                </div>
-              </div>
-              <button class="gallery-nav next" type="button" aria-label="Next image">&#10095;</button>
-            </div>
-            <div class="gallery-thumbs" id="galleryThumbs"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="reviews">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Trusted by Local Customers</h2>
-            <p>24/7 support with clear communication and professional workmanship.</p>
-          </div>
-          <div class="testimonials-grid">
-            <div class="card testimonial">
-              <div class="stars">★★★★★</div>
+          <a class="btn btn-white" href="https://share.google/QrepbyH7m2bQWEGOn" target="_blank" rel="noopener">
+            Read our Google Reviews
+          </a>
+          <div class="proof-grid">
+            <div class="proof-card">
               <p>
                 "Martin arrived after 9pm and drove over 25 miles because our boiler had packed in. He got us back up
-                and running that night, explained that a part was needed, and returned the next afternoon to fit it. He
-                didn’t take any money until the job was fully done. I’ll be using him from now on."
+                and running that night, explained that a part was needed, and returned the next afternoon to fit it."
               </p>
-              <span class="muted">Paul Stevens</span>
+              <span>Paul Stevens</span>
             </div>
-            <div class="card testimonial">
-              <div class="stars">★★★★★</div>
+            <div class="proof-card">
               <p>
                 "Contacted Martin for a shower replacement. He was approachable, punctual, and committed. He brought
                 the replacement and fitted it the next day, cleaned up after himself, and left the house spotless."
               </p>
-              <span class="muted">Emily Osborne</span>
+              <span>Emily Osborne</span>
             </div>
-            <div class="card testimonial">
-              <div class="stars">★★★★★</div>
+            <div class="proof-card">
               <p>
                 "Called about a leaking main water inlet under the sink. He attended promptly, explained the estimate,
                 sourced the parts, and replaced the inlet without removing the cupboard. Professional and speedy."
               </p>
-              <span class="muted">David Fellows</span>
-            </div>
-            <div class="card testimonial">
-              <div class="stars">★★★★★</div>
-              <p>
-                "Martin came as quickly as he could and was so lovely and trustworthy. He fixed the issue fast and I
-                would recommend him to anyone."
-              </p>
-              <span class="muted">Myia Wilkinson</span>
-            </div>
-            <div class="card testimonial">
-              <div class="stars">★★★★★</div>
-              <p>
-                "Absolutely lovely and helpful. Our shower was leaking and wouldn’t turn off. Martin changed it over,
-                got soaked in the process, and still cleaned up after himself. We’re so grateful."
-              </p>
-              <span class="muted">Norma Andrews</span>
-            </div>
-          </div>
-          <a class="btn btn-secondary" href="https://share.google/QrepbyH7m2bQWEGOn" target="_blank" rel="noopener">
-            Read our Google Reviews
-          </a>
-        </div>
-      </section>
-
-      <section class="section alt" id="faq">
-        <div class="container">
-          <div class="section-heading">
-            <h2>FAQ</h2>
-            <p>Quick answers about emergency call-outs and boiler repairs in Birmingham.</p>
-          </div>
-          <div class="faq-grid">
-            <div class="card">
-              <h3>Do you offer 24/7 emergency call-outs?</h3>
-              <p>Yes. We provide 24/7 emergency call-outs for boiler breakdowns and urgent plumbing leaks.</p>
-            </div>
-            <div class="card">
-              <h3>Can you provide same-day service?</h3>
-              <p>Same-day service is available where possible. Call and we will confirm availability.</p>
-            </div>
-            <div class="card">
-              <h3>Are you Gas Safe registered?</h3>
-              <p>Yes. We are Gas Safe Registered #637117 and follow all safety standards.</p>
-            </div>
-            <div class="card">
-              <h3>Do you work with commercial properties?</h3>
-              <p>Yes. We support residential and commercial plumbing and heating needs.</p>
-            </div>
-            <div class="card">
-              <h3>What areas do you cover?</h3>
-              <p>We cover Birmingham and nearby areas within roughly a 10-mile radius.</p>
-            </div>
-            <div class="card">
-              <h3>Is your work guaranteed?</h3>
-              <p>Workmanship guaranteed (terms apply). Ask for the coverage details on your job.</p>
-            </div>
-            <div class="card">
-              <h3>Which boiler brands do you service?</h3>
-              <p>We work with leading brands such as Worcester Bosch, Vaillant, Ideal, Baxi, Viessmann, and Alpha.</p>
+              <span>David Fellows</span>
             </div>
           </div>
         </div>
+        <svg class="angle-divider" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="0,90 1440,0 1440,90" />
+        </svg>
       </section>
 
-      <section class="section contact" id="contact">
+      <section class="section surface-2" id="contact">
         <div class="container contact-grid">
           <div>
             <div class="section-heading">
               <h2>
-              <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="4" y="6" width="16" height="12" rx="2" />
-                <path d="M4 8l8 5 8-5" />
-              </svg>Request a Call Back</h2>
+                <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="4" y="6" width="16" height="12" rx="2" />
+                  <path d="M4 8l8 5 8-5" />
+                </svg>
+                Request a Call Back
+              </h2>
               <p>Tell us what you need and we will respond as quickly as possible.</p>
             </div>
             <ul class="contact-details">
@@ -581,10 +396,6 @@
               <li><strong>Insurance:</strong> Up to £5,000,000 Public Liability Insurance</li>
               <li><strong>Guarantee:</strong> Workmanship guaranteed (terms apply)</li>
             </ul>
-            <div class="contact-note">
-              <p class="muted">Emergency? Call us now for immediate assistance.</p>
-              <a class="btn btn-primary" href="tel:07790714880">Call 24/7</a>
-            </div>
           </div>
           <form class="contact-form" id="contactForm" novalidate>
             <div class="form-row">
@@ -635,19 +446,6 @@
           </form>
         </div>
       </section>
-
-      <section class="section cta" id="cta">
-        <div class="container cta-inner">
-          <div>
-            <h2>Need an emergency gas engineer in Birmingham?</h2>
-            <p>Call now for 24/7 support and same-day availability where possible.</p>
-          </div>
-          <div class="cta-actions">
-            <a class="btn btn-primary" href="tel:07790714880">Call 24/7</a>
-            <a class="btn btn-secondary" href="#contact">Request a Call Back</a>
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer class="site-footer">
@@ -670,6 +468,7 @@
       <p class="footer-note">&copy; 2026 Nasa Gas Plumbing &amp; Heating Services. All rights reserved.</p>
       <!-- TODO: Add privacy notice once domain and policies are live. -->
     </footer>
+
     <div class="mobile-action-bar" id="mobileActionBar" role="navigation" aria-label="Quick actions">
       <a class="action-btn action-call" href="tel:07790714880" aria-label="Call Nasa Gas Plumbing & Heating Services 24/7">
         <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -690,7 +489,6 @@
         WhatsApp
       </a>
     </div>
-
 
     <div class="modal" id="galleryModal" aria-hidden="true" role="dialog" aria-label="Gallery viewer">
       <div class="modal-content" role="document">

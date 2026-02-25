@@ -279,3 +279,36 @@ if (form) {
 }
 
 setupGallery();
+
+
+const toggleButtons = document.querySelectorAll(".link-toggle");
+
+toggleButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const target = btn.dataset.toggle;
+    if (target === "triage") {
+      const more = document.querySelector(".triage-more");
+      if (!more) return;
+      const isHidden = more.hasAttribute("hidden");
+      if (isHidden) {
+        more.removeAttribute("hidden");
+        btn.textContent = "Show fewer";
+      } else {
+        more.setAttribute("hidden", "");
+        btn.textContent = "More issues";
+      }
+    }
+    if (target === "services") {
+      const more = document.querySelector(".services-more");
+      if (!more) return;
+      const isHidden = more.hasAttribute("hidden");
+      if (isHidden) {
+        more.removeAttribute("hidden");
+        btn.textContent = "View fewer services";
+      } else {
+        more.setAttribute("hidden", "");
+        btn.textContent = "View all services";
+      }
+    }
+  });
+});
